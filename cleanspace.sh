@@ -1,7 +1,7 @@
 #!/bin/bash
-docker prune image
+docker image prune
 
-docker prune network 
+docker network prune 
 
 docker system prune --volumes
 
